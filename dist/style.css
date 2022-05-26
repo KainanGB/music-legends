@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* Arquivo CSS base Codelândia*/
+:root {
+  --dark: #14061f;
+  --gray: #c0c0c0;
+  --light: #f1f0f0;
+  --green-light: #2ef4cc;
+  --gradiente: linear-gradient(
+    90.35deg,
+    #4ac08f 2.49%,
+    #2fb4ff 101.2%,
+    #2fb4ff 101.2%
+  );
+  --font: "IBM Plex Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button,
+input {
+  border: 0;
+  font-family: var(--font);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.container--main {
+  max-width: 1260px;
+  padding: 0 2em;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__title {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.header__profile img {
+  width: 24px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  background-image: url(../../background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__content {
+  width: 100%;
+  margin: auto auto 0;
+  padding-bottom: 128px;
+}
+.main__content .logo {
+  width: 140px;
+}
+.main__content .title {
+  font-size: 1.7rem;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin: 1.7em 0;
+}
+.main__content .buttons {
+  display: flex;
+  align-items: center;
+}
+.main__content .buttons small {
+  font-size: 12px;
+  line-height: 19px;
+  padding: 0 2.4em;
+}
+.main__content .buttons .arrow-img {
+  background-color: white;
+  width: 24px;
+  border-radius: 100%;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid;
+  border-color: var(--green-light);
+  padding: 1em 0;
+}
+.footer button {
+  background: transparent;
+  margin: 0 1em;
+  cursor: pointer;
+}
+.footer__controls {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.footer__controls .repeat, .footer__controls .rotate, .footer__controls .arrow {
+  width: 24.96px;
+}
+.footer .center {
+  display: flex;
+}
+.footer .center .play {
+  background-color: #200C30;
+  border-radius: 100%;
+  padding: 0.6em;
+}
+.footer .center .play img {
+  width: 14.56px;
+  padding-left: 0.2em;
+}/*# sourceMappingURL=style.css.map */
