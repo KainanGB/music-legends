@@ -9,13 +9,11 @@
   height: 100vh;
 }
 
-
 .container {
   max-width: 1260px;
   margin: 0 auto;
   padding: 0 2em;
 }
-
 
 .container--main {
   max-width: 1260px;
@@ -27,14 +25,14 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  
-  &__content { 
+
+  &__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
   }
-  
+
   &__title {
     font-weight: 400;
     font-size: 1rem;
@@ -52,13 +50,11 @@ main {
   flex: 1;
   background-image: url(../../background.png);
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   background-size: cover;
 }
 
 .main {
-
-
   &__content {
     width: 100%;
     margin: auto auto 0;
@@ -67,7 +63,6 @@ main {
     .logo {
       width: 140px;
     }
-
 
     .title {
       font-size: 1.7rem;
@@ -91,10 +86,7 @@ main {
         width: 24px;
         border-radius: 100%;
         color: black;
-        
       }
-
-      
     }
   }
 }
@@ -104,8 +96,8 @@ main {
   width: 100%;
   border-top: 1px solid;
   border-color: var(--green-light);
-  padding: 1em 0;
-  
+  padding: 2em 0;
+
   button {
     background: transparent;
     margin: 0 1em;
@@ -117,7 +109,9 @@ main {
     width: 100%;
     justify-content: center;
 
-    .repeat, .rotate, .arrow {
+    .repeat,
+    .rotate,
+    .arrow {
       width: 24.96px;
     }
   }
@@ -126,10 +120,9 @@ main {
     display: flex;
 
     .play {
-      background-color: #200C30;
+      background-color: #200c30;
       border-radius: 100%;
       padding: 0.6em;
-    
 
       img {
         width: 14.56px;
